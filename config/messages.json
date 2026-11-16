@@ -1,0 +1,30 @@
+{
+  "_说明": "改完运行 python3 src/tools/gen_assets.py，再重新编译烧录。每档文案 1–3 行，每行别太长（脚本会检查超宽）。",
+  "target_c": 26.0,
+  "ok_low_c": 25.5,
+  "ok_high_c": 26.5,
+  "temp_offset_c": 0.0,
+  "update_minutes": 3,
+  "font": "/System/Library/Fonts/STHeiti Medium.ttc",
+  "digit_px": 190,
+  "message_px": 56,
+  "footer_px": 26,
+  "rotation": 0,
+  "states": {
+    "cold": [
+      "还没到 26℃",
+      "先别调高，等它到了再说"
+    ],
+    "ok": [
+      "已经 26℃ 了",
+      "就这样，别动它"
+    ],
+    "warm": [
+      "超过 26℃ 了",
+      "可以调低一点"
+    ]
+  },
+  "footer": "每 3 分钟更新",
+  "request_min_c": 25.5,
+  "request_message": "空调先别调到26℃嘛"
+}
